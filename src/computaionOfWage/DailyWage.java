@@ -10,10 +10,11 @@ public class DailyWage {
 		
 		double empcheck = Math.floor(Math.random()*10) % 2 ;
 		
-		int totalwageis=(20*8);
-		if (empcheck == 1)
+		int totalwageis=(+WagePerHour*+WorkingHour);
+		if (empcheck == +full_time)
 		{
-				System.out.println("employe daily wage is .."+totalwageis);
+		
+				System.out.println("Employe is Full time\nEmploye daily wage is .."+totalwageis);
 			}
 			else		System.out.println("employe is absent");
 
